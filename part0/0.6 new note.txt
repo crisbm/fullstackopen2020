@@ -1,0 +1,11 @@
+note:
+write note in the input field and press Save button
+end note
+
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+
+note over browser:
+new note sent as JSON data
+new note is added to the server
+note list is rerendered
+end note
